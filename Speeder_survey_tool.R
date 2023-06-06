@@ -7,11 +7,11 @@
 # endtime.
 # 4. Adjust total response time by adding 8 seconds to each case for every NA
 # (skipped or not asked) response they have. The amount of time added for each
-# question can be adjusted on line 53. 
+# question can be adjusted on line 48. 
 # 5. Calculates a mean response time across all cases that took less than 20
 # minutes (to discount survey returners from the calculation)
 # 6. Codes anyone with a response time of two standard deviations below that as
-# a 'speeder' - in a variable called 'speeder'. This can be adjusted on line 63
+# a 'speeder' - in a variable called 'speeder'. This can be adjusted on line 60
 # to be more or less strict. 
 # 7. Joins df_speeders with our original df and writes this as a new spss file
 # called 'speeders'.
